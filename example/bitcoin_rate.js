@@ -8,6 +8,7 @@ Promise.all([
     util.getBitcoinRate()
 ]).spread(function(c,b){
     b['BTC/JPY'] = b['BTC/USD'].map(function(v){return v * c['USDJPY']});
-    return b;
+    var x = {'BTC/USD':c['BTCUSD'],'BTC/JPY':c['BTCJPY']};
+    return [x,b];
 }).then(console.log)
 
