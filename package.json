@@ -1,0 +1,34 @@
+{
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "name": "virwox",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "limit-request-promise" : "0.0.1"
+  },
+  "readmeFilename": "README.md",
+  "description": "virwox trade api for promise",
+  "main": "index.js",
+  "devDependencies": {
+    "bluebird" : "",
+    "mocha" : "",
+    "power-assert" : ""
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-virwox.git"
+  },
+  "keywords": [
+    "trade api",
+    "bitcoin",
+    "monacoin",
+    "virwox"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-virwox/issues"
+  }
+}
