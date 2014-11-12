@@ -10,9 +10,6 @@
   "description": "virwox trade api for promise",
   "main": "index.js",
   "devDependencies": {
-    "bluebird" : "",
-    "mocha" : "",
-    "power-assert" : ""
   },
   "scripts": {
     "test": ""
@@ -24,7 +21,6 @@
   "keywords": [
     "trade api",
     "bitcoin",
-    "monacoin",
     "virwox"
   ],
   "license": "MIT",
