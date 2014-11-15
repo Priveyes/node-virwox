@@ -1,10 +1,10 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "virwox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
-    "limit-request-promise" : "0.0.1"
+    "limit-request-promise" : "0.0.4"
   },
   "readmeFilename": "README.md",
   "description": "virwox trade api for promise",
