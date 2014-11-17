@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "virwox",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "dependencies": {
     "limit-request-promise" : ""
@@ -10,6 +10,8 @@
   "description": "virwox trade api for promise",
   "main": "index.js",
   "devDependencies": {
+    "yahoo-currency" : "",
+    "bluebird" : ""
   },
   "scripts": {
     "test": ""
